@@ -18,21 +18,21 @@ The second step towards programming my first database app, this console applicat
 ### To run this console app you should install the technologies as above and create to tables in your database as shown:
 
 
-<mark>Pojistene:</mark>
+> Pojistene:
+> 
+> | id | jmeno | prijmeni | datum_narozeni | tel_cislo | email |
+> |:--:| :---: | :------: | :------------: | :-------: | :---: |
+> |    |       |          |                |           |       |
+> 
 
-| id | jmeno | prijmeni | datum_narozeni | tel_cislo | email |
-|:--:| :---: | :------: | :------------: | :-------: | :---: |
-|    |       |          |                |           |       |
+> Pojisteni:
+> 
+> | id | pojisteny_id | nazev_pojisteni | typ_pojisteni | pojistna_castka |
+> |:--:| :----------: | :-------------: | :-----------: | :-------------: |
+> |    |              |                 |               |                 | 
+> 
 
-
-<mark>Pojisteni:</mark>
-
-| id | pojisteny_id | nazev_pojisteni | typ_pojisteni | pojistna_castka |
-|:--:| :----------: | :-------------: | :-----------: | :-------------: |
-|    |              |                 |               |                 | 
-
-
-The database should have a name as <mark>evidence_pojistnych_udalosti</mark> or you can change this in each function in Pojisteny and Pojisteni classes.
+### The database should have a name as evidence_pojistnych_udalosti or you can change this in each function in Pojisteny and Pojisteni classes.
 
 
 

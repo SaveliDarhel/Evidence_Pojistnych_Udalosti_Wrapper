@@ -18,14 +18,14 @@ The second step towards programming my first database app, this console applicat
 ### To run this console app you should install the technologies as above and create to tables in your database as shown:
 
 
-> Pojistene:
+> **Pojistene**:
 > 
 > | id | jmeno | prijmeni | datum_narozeni | tel_cislo | email |
 > |:--:| :---: | :------: | :------------: | :-------: | :---: |
 > |    |       |          |                |           |       |
 > 
 
-> Pojisteni:
+> **Pojisteni**:
 > 
 > | id | pojisteny_id | nazev_pojisteni | typ_pojisteni | pojistna_castka |
 > |:--:| :----------: | :-------------: | :-----------: | :-------------: |

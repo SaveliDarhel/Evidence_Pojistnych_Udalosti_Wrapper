@@ -1,9 +1,11 @@
 # Evidence Pojistnych Udalosti Wrapper
 Database wrapper study for my project that shows approximate functionality of an app an a real database tables
 
+
 ## Motivation
 
 The second step towards programming my first database app, this console application communicates with two database tables through manually written queries
+
 
 ## Technologies
 
@@ -11,22 +13,28 @@ The second step towards programming my first database app, this console applicat
 - mysql-connector-java-8.0.28
 - MySQL
 
+
+
 ### To run this console app you should install the technologies as above and create to tables in your database as shown:
 
-==Pojistene:==
+
+<mark>Pojistene:</mark>
 
 | id | jmeno | prijmeni | datum_narozeni | tel_cislo | email |
 |:--:| :---: | :------: | :------------: | :-------: | :---: |
 |    |       |          |                |           |       |
 
-==Pojisteni:==
+
+<mark>Pojisteni:</mark>
 
 | id | pojisteny_id | nazev_pojisteni | typ_pojisteni | pojistna_castka |
 |:--:| :----------: | :-------------: | :-----------: | :-------------: |
 |    |              |                 |               |                 | 
 
 
-The database should have a name as ==evidence_pojistnych_udalosti== or you can change this in each function in ==Pojisteny== and ==Pojisteni== classes.
+The database should have a name as <mark>evidence_pojistnych_udalosti</mark> or you can change this in each function in Pojisteny and Pojisteni classes.
+
+
 
 ## Features
 

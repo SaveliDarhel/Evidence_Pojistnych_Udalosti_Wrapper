@@ -32,7 +32,7 @@ The second step towards programming my first database app, this console applicat
 > |    |              |                 |               |                 | 
 > 
 
-### The database should have a name as evidence_pojistnych_udalosti or you can change this in each function in Pojisteny and Pojisteni classes.
+### The database should have a name as evidence_pojistnych_udalosti or you can change this in each function in *Pojisteny* and *Pojisteni* classes.
 
 
 

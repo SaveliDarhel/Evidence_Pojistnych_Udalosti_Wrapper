@@ -49,3 +49,7 @@ Console application has functionality approximately as future application should
 - Delete insurance
 - Edit ensured
 - Edit insurance of insured
+
+## Security
+
+> Database security from SQL injections are managed by the { Database.query() } function, it uses { setObject() } function to protect system from SQL injections

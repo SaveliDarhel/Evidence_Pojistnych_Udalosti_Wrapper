@@ -38,7 +38,7 @@ The second step towards programming my first database app, this console applicat
 
 
 
-> Instead, you can just copy and paste next SQL queries:
+> **Instead, you can just copy and paste next SQL queries**:
 > 
 > ```sql 
 > {

@@ -32,7 +32,49 @@ The second step towards programming my first database app, this console applicat
 > |    |              |                 |               |                 | 
 > 
 
+
+
 ### The database should have a name as evidence_pojistnych_udalosti or you can change this in each function in *Pojisteny* and *Pojisteni* classes.
+
+
+
+> Instead, you can just copy and paste next SQL queries:
+> 
+> ```sql 
+> {
+>     CREATE DATABASE `evidence_pojistnych_udalosti` CHARACTER SET utf8 COLLATE utf8_czech_ci;
+> }
+> ```
+> 
+> ```sql 
+> {
+>     CREATE TABLE `pojistene` (
+> 	    id int AUTO_INCREMENT,
+> 	    jmeno VARCHAR (30),
+> 	    prijmeni VARCHAR (30),
+> 	    datum_narozeni date,
+> 	    tel_cislo VARCHAR (13),
+> 	    email VARCHAR (60),
+> 	    PRIMARY KEY (id)
+>     );
+> 
+> }
+> ```
+> 
+> ```sql 
+> {
+>     CREATE TABLE `pojisteni` (
+> 	    id int AUTO_INCREMENT,
+> 	    pojisteny_id int,
+> 	    nazev_pojisteni VARCHAR (100),
+> 	    typ_pojisteni VARCHAR (100),
+> 	    pojistna_castka int,
+> 	    PRIMARY KEY (id)
+>     );
+> 
+> }
+> ```
+> 
 
 
 
@@ -52,4 +94,4 @@ Console application has functionality approximately as future application should
 
 ## Security
 
-> Database security from SQL injections are managed by the { Database.query() } function, it uses { setObject() } function to protect system from SQL injections
+> Database security of this app is managed by the { Database.query() } function, it uses { setObject() } function to protect application from SQL injections

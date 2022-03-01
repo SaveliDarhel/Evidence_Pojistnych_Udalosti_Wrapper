@@ -4,7 +4,7 @@ Database wrapper study for my project that shows approximate functionality of an
 
 ## Motivation
 
-The second step towards programming my first database app, this console application communicates with two database tables through manually written queries
+The second step towards programming my first database app, this console application communicates with two database tables through manually written queries using JDBC technology
 
 
 ## Technologies
